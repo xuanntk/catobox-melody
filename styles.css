@@ -2,8 +2,9 @@
 body {
   background-color: #96351e;
   color: #fff;
-  padding: 0 25px 10vh;
+  padding: 0 25px 6vh;
   font-family: "Brygada 1918", serif;
+  overflow: hidden;
 }
 .flex {
   display: flex;
@@ -11,7 +12,7 @@ body {
   align-items: center;
 }
 .item1 {
-  padding: 10vh 0;
+  padding: 6vh 0;
 }
 .item2,
 .item3
