@@ -82,3 +82,7 @@ body {
   border-radius: 50%; /* Bo tròn nút */
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Đổ bóng cho nút */
 }
+
+.hidden {
+    display: none;
+}
