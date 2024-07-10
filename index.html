@@ -10,9 +10,18 @@
 </head>
 
 <body>
-        <a href="/coban.html">Đừng làm trái tim anh đau</a>
         <br>
         <a href="/totnghiep.html">Tốt nghiệp</a>
+        <a href="/catobox-melody/coban" id="customLink">Đừng làm trái tim anh đau</a>
+        
+        <script>
+            document.getElementById("customLink").addEventListener("click", function (event) {
+                event.preventDefault(); // Ngăn chặn hành động mặc định của link
+                window.location.href = "/coban.html"; // Chuyển hướng tới file thực tế
+            });
+        </script>
+
+
 </body>
 
 </html>
