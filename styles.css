@@ -176,7 +176,8 @@ body {
 @media screen and (max-width: 380px) {
   #totnghiep .item2 {
     max-width: 80vw;
-    height: 235px;
+    height: 32vh;
+    max-height: 280px;
     object-fit: cover;
     margin: auto;
   }
