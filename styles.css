@@ -173,7 +173,7 @@ body {
   padding: 0;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-height: 680px) {
   #totnghiep .item2 {
     max-width: 80vw;
     height: 32vh;
