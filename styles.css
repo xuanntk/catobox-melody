@@ -14,13 +14,13 @@ body {
 }
 #coban {
   height: 100vh;
-  padding: 6vh 25px;
+  padding: 0 25px;
   color: #fff;
   background-color: #96351e;
 }
 #totnghiep {
   height: 100vh;
-  padding: 6vh 25px;
+  padding: 3vh 25px;
   color: #96351e;
   background-color: #fffaeb;
 }
@@ -158,9 +158,9 @@ body {
 #totnghiep .item4 {
   margin-top: 5vh;
 }
-#totnghiep .item1 {
-  padding: 5vh 0 2vh;
-}
+/* #totnghiep .item1 {
+  padding: 0 0 2vh;
+} */
 #links a {
   color: #fff;
 }
