@@ -69,11 +69,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const links = document.getElementById("links");
   const coban = document.getElementById("coban");
   const totnghiep = document.getElementById("totnghiep");
+  const logo = document.getElementById("logo");
 
   function showContent(id) {
     links.classList.add("hidden");
     coban.classList.add("hidden");
     totnghiep.classList.add("hidden");
+    logo.classList.add("hidden");
 
     document.getElementById(id).classList.remove("hidden");
   }

@@ -11,70 +11,70 @@
 
 <body>
     <div class="container">
-        <!-- <nav id="links">
-            <a href="#coban" id="showCoban">Hiển thị Đừng làm trái tim anh đau</a>
-            <a href="#totnghiep" id="showTotnghiep">Hiển thị tốt nghiệp</a>
-        </nav> -->
-        <div class="logo">
-        <img src="./images/logo.png" alt="" srcset="">
+        <nav id="links" >
+            <!-- <a href="#coban" id="showCoban">Hiển thị Đừng làm trái tim anh đau</a> -->
+            <!-- <a href="#totnghiep" id="showTotnghiep">Hiển thị tốt nghiệp</a> -->
+            <div id="logo">
+                <img src="./images/logo.png" alt="" srcset="">
+            </div>
+        </nav>
+    <div id="coban" class="player-container hidden">
+        <div class="item1 flex">
+            <img src="./images/Vector.svg" alt="">
+            <img src="./images/3cham.svg" alt="">
         </div>
-        <div id="coban" class="player-container hidden">
-            <div class="item1 flex">
-                <img src="./images/Vector.svg" alt="">
-                <img src="./images/3cham.svg" alt="">
+        <img class="item2" src="./images/cover.svg" alt="">
+        <img class="item3" src="./images/songNhac.svg" alt="">
+        <div class="item4 flex">
+            <div>
+                <h3>Đừng làm trái tim anh đau</h3>
+                <span class="actor">Sơn Tùng M-TP</span>
             </div>
-            <img class="item2" src="./images/cover.svg" alt="">
-            <img class="item3" src="./images/songNhac.svg" alt="">
-            <div class="item4 flex">
-                <div>
-                    <h3>Đừng làm trái tim anh đau</h3>
-                    <span class="actor">Sơn Tùng M-TP</span>
-                </div>
-                <img src="./images/heart.svg" alt="">
-            </div>
-            <div class="song-slider">
-                <input class="seek-bar seek-bar-coban" type="range" value="0">
-            </div>
-            <audio id="audioCoban" src="./music/dung-lam-trai-tim-anh-dau-son-tung.mp3"></audio>
-            <div class="congcu flex">
-                <img src="./images/congcu1.svg" alt="">
-                <img src="./images/congcu2.svg" alt="">
-                <img id="pauseCoban" class="hidden" src="./images/pause.svg" alt="">
-                <i id="playCoban" class="fa solid fa-play"></i>
-                <img src="./images/congcu3.svg" alt="">
-                <img src="./images/congcu4.svg" alt="">
-            </div>
+            <img src="./images/heart.svg" alt="">
         </div>
+        <div class="song-slider">
+            <input class="seek-bar seek-bar-coban" type="range" value="0">
+        </div>
+        <audio id="audioCoban" src="./music/dung-lam-trai-tim-anh-dau-son-tung.mp3"></audio>
+        <div class="congcu flex">
+            <img src="./images/congcu1.svg" alt="">
+            <img src="./images/congcu2.svg" alt="">
+            <img id="pauseCoban" class="hidden" src="./images/pause.svg" alt="">
+            <i id="playCoban" class="fa solid fa-play"></i>
+            <img src="./images/congcu3.svg" alt="">
+            <img src="./images/congcu4.svg" alt="">
+        </div>
+    </div>
 
-        <div id="totnghiep" class="player-container hidden">
-            <div class="item1 flex">
-                <img src="./images/Vector_totnghiep.svg" alt="">
-                <img src="./images/3cham_totnghiep.svg" alt="">
-            </div>
-            <img class="item2" src="./images/cover_totnghiep.svg" alt="">
-            <img class="item3" src="./images/songNhac_totnghiep.svg" alt="">
-            <p class="cover-text" >Có một loại tốt đẹp mang tên Thanh Xuân,</p>
-            <p class="cover-text">Có một loại chia ly mang tên Tốt Nghiệp…</p>
-            <div class="item4 flex">
-                <div>
-                    <h3>Today My Life Begins</h3>
-                    <span class="actor">Bruno Mars</span>
-                </div>
-                <img src="./images/heart_totnghiep.svg" alt="">
-            </div>
-            <div class="song-slider">
-                <input class="seek-bar seek-bar-totnghiep" type="range" value="0">
-            </div>
-            <audio id="audioTotnghiep" src="./music/today_my_life_begins.mp3"></audio>
-            <div class="congcu flex">
-                <img src="./images/congcu1_totnghiep.svg" alt="">
-                <img src="./images/congcu2_totnghiep.svg" alt="">
-                <img id="pauseTotnghiep" class="hidden" src="./images/pause_totnghiep.svg" alt="">
-                <i id="playTotnghiep" class="fa solid fa-play"></i>
-                <img src="./images/congcu3_totnghiep.svg" alt="">
-                <img src="./images/congcu4_totnghiep.svg" alt="">
-            </div>
+    <div id="totnghiep" class="player-container hidden">
+        <div class="item1 flex">
+            <img src="./images/Vector_totnghiep.svg" alt="">
+            <img src="./images/3cham_totnghiep.svg" alt="">
         </div>
+        <img class="item2" src="./images/cover_totnghiep.svg" alt="">
+        <img class="item3" src="./images/songNhac_totnghiep.svg" alt="">
+        <p class="cover-text">Có một loại tốt đẹp mang tên Thanh Xuân,</p>
+        <p class="cover-text">Có một loại chia ly mang tên Tốt Nghiệp…</p>
+        <div class="item4 flex">
+            <div>
+                <h3>Today My Life Begins</h3>
+                <span class="actor">Bruno Mars</span>
+            </div>
+            <img src="./images/heart_totnghiep.svg" alt="">
+        </div>
+        <div class="song-slider">
+            <input class="seek-bar seek-bar-totnghiep" type="range" value="0">
+        </div>
+        <audio id="audioTotnghiep" src="./music/today_my_life_begins.mp3"></audio>
+        <div class="congcu flex">
+            <img src="./images/congcu1_totnghiep.svg" alt="">
+            <img src="./images/congcu2_totnghiep.svg" alt="">
+            <img id="pauseTotnghiep" class="hidden" src="./images/pause_totnghiep.svg" alt="">
+            <i id="playTotnghiep" class="fa solid fa-play"></i>
+            <img src="./images/congcu3_totnghiep.svg" alt="">
+            <img src="./images/congcu4_totnghiep.svg" alt="">
+        </div>
+    </div>
     </div>
 
     <script src="script.js"></script>
